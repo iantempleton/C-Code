@@ -4,7 +4,7 @@
 
 int main()
 {
-	char str1[34] = "Kimmy, why must you have pneumonia?";
+	char str1[] = "Kimmy, why must you have pneumonia?";
 	char *str2;
 	str2 = strstr(str1, "pneumonia");
 	int desiredPosition = 0; // begins at position 0 i.e. 'K'
